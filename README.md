@@ -1,3 +1,4 @@
+```markdown
 # Chatur Bazar 🚀
 
 **Chatur Bazar** is a futuristic, web-based Retail Operating System (OS) designed for speed, efficiency, and automation. It combines a high-performance Point of Sale (POS) interface with intelligent inventory management, automated supply chain triggers, and a modern UI that adapts to your environment.
@@ -6,7 +7,7 @@
 
 ### 🖥️ Smart POS Interface
 - **Hybrid Input**: Support for barcode scanners, keyboard typing, and mouse interaction.
-- **Velocity Trap**: intelligently distinguishes between a barcode scanner input (rapid keystrokes) and manual typing.
+- **Velocity Trap**: Intelligently distinguishes between a barcode scanner input (rapid keystrokes) and manual typing.
 - **Combo System**: Gamified UI with "Combo" streaks when scanning items rapidly.
 - **Dynamic Cart**: Real-time total calculation with tax/pricing logic.
 
@@ -53,6 +54,15 @@ Designed for "Heads-up" operation, you can run the entire shop without touching 
 
 ---
 
+## 🏗️ Architecture & MVP Design Note
+**Note for Judges:**
+For this Hackathon MVP, we have implemented a **"Local-First" Architecture** using Browser Storage and Mock Data.
+- **Why?** To ensure **Zero-Latency** performance and offline reliability during the demo presentation.
+- **Production Plan:** The codebase is structured with strict TypeScript interfaces (`Product`, `CartItem`) to easily swap the current `localStorage` layer with **Google Firebase Firestore** and **Cloud Functions** for the production release (Phase 2).
+- **Current Status:** The "Velocity Trap" algorithms, Voice Command (Web Speech API), and WhatsApp Integration are **fully functional** in this deployment.
+
+---
+
 ## 🛠️ Technical Stack
 
 - **Framework**: React 18 + TypeScript
@@ -68,25 +78,39 @@ Designed for "Heads-up" operation, you can run the entire shop without touching 
 1. **Install Dependencies**:
    ```bash
    npm install
-   ```
+
+```
 
 2. **Run Development Server**:
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+
+```
+
 
 3. **Build for Production**:
-   ```bash
-   npm run build
-   ```
+```bash
+npm run build
+
+```
+
+
 
 ## 📱 Mobile Support
+
 The application is fully responsive. On mobile devices:
-- The Cart becomes a slide-out drawer.
-- A floating "Pay" bar appears at the bottom.
-- Layouts adjust from grids to lists automatically.
+
+* The Cart becomes a slide-out drawer.
+* A floating "Pay" bar appears at the bottom.
+* Layouts adjust from grids to lists automatically.
 
 ## ⚠️ Browser Permissions
+
 To use all features, please allow the following permissions when prompted:
-- **Microphone**: Required for Voice Commands.
-- **Audio**: Required for the Audio Engine sound effects.
+
+* **Microphone**: Required for Voice Commands.
+* **Audio**: Required for the Audio Engine sound effects.
+
+```
+
+```
