@@ -76,7 +76,7 @@ For this Hackathon MVP, we have implemented a **"Local-First" Architecture** usi
 
 1. **Install Dependencies**:
    ```bash
-   npm install## 🚀 Getting Started
+   npm install
 
 1. **Install Dependencies**:
    ```bash
