@@ -1,4 +1,3 @@
-```markdown
 # Chatur Bazar 🚀
 
 **Chatur Bazar** is a futuristic, web-based Retail Operating System (OS) designed for speed, efficiency, and automation. It combines a high-performance Point of Sale (POS) interface with intelligent inventory management, automated supply chain triggers, and a modern UI that adapts to your environment.
@@ -77,40 +76,30 @@ For this Hackathon MVP, we have implemented a **"Local-First" Architecture** usi
 
 1. **Install Dependencies**:
    ```bash
-   npm install
+   npm install## 🚀 Getting Started
 
-```
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
 2. **Run Development Server**:
-```bash
-npm start
-
-```
-
+   ```bash
+   npm start
+   ```
 
 3. **Build for Production**:
-```bash
-npm run build
-
-```
-
-
+   ```bash
+   npm run build
+   ```
 
 ## 📱 Mobile Support
-
 The application is fully responsive. On mobile devices:
-
-* The Cart becomes a slide-out drawer.
-* A floating "Pay" bar appears at the bottom.
-* Layouts adjust from grids to lists automatically.
+- The Cart becomes a slide-out drawer.
+- A floating "Pay" bar appears at the bottom.
+- Layouts adjust from grids to lists automatically.
 
 ## ⚠️ Browser Permissions
-
 To use all features, please allow the following permissions when prompted:
-
-* **Microphone**: Required for Voice Commands.
-* **Audio**: Required for the Audio Engine sound effects.
-
-```
-
-```
+- **Microphone**: Required for Voice Commands.
+- **Audio**: Required for the Audio Engine sound effects.
