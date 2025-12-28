@@ -1,0 +1,7 @@
+{
+  "name": "Chatur Bazar",
+  "description": "A smart retail operating system for modern shopkeepers.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
